@@ -3,6 +3,21 @@ img {
     max-width: 100%;
 }
 
+/* COMMON */
+/* Layout */
+.ms_small_container {
+    width: 70%;
+    margin: 0 auto;
+}
+/* Styles */
+.ms_info_section {
+    background-color:#3A546D;
+}
+footer {
+    background-color: #2C3E50;
+
+}
+
 /* HEADER */
 header {
     width: 100%;
@@ -47,13 +62,13 @@ header li {
 .ms_jumbotron img {
     width: 250px;
 } 
-/* .ms_jumbotron ul {
-    justify-content: center;
-    display: flex;
-    list-style-type: none;
-}  */
+/* About section */
+.ms_about {
+    background-color: #1ABC9C;
+}
 
 /* RESPONSIVE */
+/* Tablet mode */
 @media screen and (min-width:768px) {
 
     .ms_logo {
@@ -72,5 +87,21 @@ header li {
     header ul {
         display: flex;
     }
+
+    /* About section */
+    .ms_small_container {
+        width: 70%;
+        margin: 0 auto;
+    }
     
+}
+
+/* Desktop mode */
+@media screen and (min-width:992px) {
+    /* About section */
+    .ms_small_container {
+        width: 70%;
+        margin: 0 auto;
+    }
+
 }
