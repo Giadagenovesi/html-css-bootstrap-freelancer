@@ -40,6 +40,10 @@ header {
     height: 70px;
     background-color: #2C3E50;
 }
+.ms_white_text {
+    color: white;
+    font-weight: bold;
+}
 
 /* MAIN */
 /* Jumbotron */
@@ -71,8 +75,7 @@ header {
     height: 40px;
     padding: .5rem .8rem;
     border: 1px solid white;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
 }
  .ms_start_bootstrap {
     color: #1ABC9C;
